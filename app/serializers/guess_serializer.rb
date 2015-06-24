@@ -1,3 +1,3 @@
 class GuessSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :result, :round, :card
 end

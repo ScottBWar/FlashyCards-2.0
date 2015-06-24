@@ -1,3 +1,3 @@
 class RoundSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :live, :deck, :user
 end
